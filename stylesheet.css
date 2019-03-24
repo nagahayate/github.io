@@ -1,0 +1,39 @@
+*{
+  font-family:Yu Mincho;
+}
+
+.header{
+  font-size: 25px;
+  color: white;
+  height:40px;
+  text-align: center;
+  padding: 10px;
+  background-color:#02ccba;
+}
+
+.title {
+  color: #02ccba;
+  font-size: 20px;
+}
+
+.shop{
+  padding-top: 15px;
+}
+
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
